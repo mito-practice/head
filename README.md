@@ -23,11 +23,12 @@
 ### Филогенетика/биоинформатика
 
 - выравнивание
-- бласт по собственной базе
+  - blast-plus
+  - bwa
+  - muscle
+  - macse
 - [EMBOSS tool](http://emboss.sourceforge.net/)
 - Other tools
-  - macse
-  - muscle
   - trimal
   - [newick utilities](http://gensoft.pasteur.fr/docs/newick-utils/1.6/nwutils_tutorial.pdf)
   - awesome bioinformatics [1](https://landof.dev/awesome/bioinformatics/) и [2](https://github.com/danielecook/Awesome-Bioinformatics)
@@ -46,7 +47,7 @@
 ### Программирование
 
 - питон
-- баш
+- баш (optional)
 - алгоритмы и структуры данных
 - дебаггинг
 
@@ -61,8 +62,8 @@
 ### Технические штуки
 
 - git + github
-- консоль
-- запуск тулов из консоли
+- консоль (найти ту книжку)
+  - запуск тулов из консоли
 - IDE
 - docker (опционально)
 - макрдаун
