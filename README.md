@@ -24,6 +24,14 @@
 
 - выравнивание
 - бласт по собственной базе
+- [EMBOSS tool](http://emboss.sourceforge.net/)
+- Other tools
+  - macse
+  - muscle
+  - trimal
+  - [newick utilities](http://gensoft.pasteur.fr/docs/newick-utils/1.6/nwutils_tutorial.pdf)
+  - awesome bioinformatics [1](https://landof.dev/awesome/bioinformatics/) и [2](https://github.com/danielecook/Awesome-Bioinformatics)
+  - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline)
 - модели замещений
 - деревья
 - мутспеки
@@ -33,7 +41,6 @@
   - контроль качества ридов
   - сборка генома
   - картирование/маппирование на референс
-  - SNP calling
   - другие методы из курса
 
 ### Программирование
