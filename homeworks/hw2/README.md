@@ -14,6 +14,8 @@
 
 ## Useful code
 
+В биопитоне есть очень мощный модуль по работе с рестриктазами, предлагаю использовать его, хотя если найдете что-то еще, будет интересно посмотреть. Пример кода приложен
+
 ```python
 from Bio.Restriction import Analysis, AllEnzymes
 from Bio.SeqRecord import SeqRecord
