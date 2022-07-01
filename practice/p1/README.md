@@ -1,0 +1,1 @@
+# Reading of genbank file
