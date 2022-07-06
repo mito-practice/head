@@ -1,0 +1,4 @@
+practice/p2/data/*.gb
+practice/p2/data/*.fasta
+*.tar*
+practice/p2/db

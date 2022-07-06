@@ -1,0 +1,169 @@
+TBLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Insecta mtDNA
+           3,130 sequences; 49,353,361 total letters
+
+
+
+Query= YP_002519430.1 ND6 gene product (mitochondrion) [Bombus hypocrita
+sapporensis]
+
+Length=181
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_011923.1 Bombus hypocrita sapporensis mitochondrion, complete ...  70.1       4e-14
+NC_057952.1 Bombus longipennis mitochondrion, complete genome         58.2       5e-10
+NC_045178.1 Bombus terrestris lusitanicus mitochondrion, complete...  38.5       0.002
+NC_045179.1 Bombus terrestris terrestris mitochondrion, complete ...  38.5       0.002
+NC_045283.1 Bombus waltoni mitochondrion, complete genome             31.2       0.52 
+NC_039709.1 Apis andreniformis mitochondrial DNA, complete genome     27.7       8.6  
+
+
+>NC_011923.1 Bombus hypocrita sapporensis mitochondrion, complete genome
+Length=15468
+
+ Score = 70.1 bits (170),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+ Frame = +2
+
+Query  31     NIFHYPLKQLIYLIFYIIFMSFNNLIMKQNFSMNLY  66
+              NIFHYPLKQLIYLIFYIIFMSFNNLIMKQNFSMNLY
+Sbjct  10637  NIFHYPLKQLIYLIFYIIFMSFNNLIMKQNFSMNLY  10744
+
+
+ Score = 35.4 bits (80),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 17/18 (94%), Positives = 17/18 (94%), Gaps = 0/18 (0%)
+ Frame = +2
+
+Query  164    TKICYIKNKNLRTSKWKK  181
+              TKICYIKNKNLRT KWKK
+Sbjct  11036  TKICYIKNKNLRT*KWKK  11089
+
+
+>NC_057952.1 Bombus longipennis mitochondrion, complete genome
+Length=18458
+
+ Score = 58.2 bits (139),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 31/36 (86%), Positives = 34/36 (94%), Gaps = 0/36 (0%)
+ Frame = +1
+
+Query  31     NIFHYPLKQLIYLIFYIIFMSFNNLIMKQNFSMNLY  66
+              NIF+YPLKQLI LIFYII+M+FN LIMKQNFSMNLY
+Sbjct  10807  NIFNYPLKQLICLIFYIIYMTFNILIMKQNFSMNLY  10914
+
+
+ Score = 29.3 bits (64),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 13/13 (100%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+ Frame = +1
+
+Query  164    TKICYIKNKNLRT  176
+              TKICYIKNKNLRT
+Sbjct  11206  TKICYIKNKNLRT  11244
+
+
+>NC_045178.1 Bombus terrestris lusitanicus mitochondrion, complete genome
+Length=17049
+
+ Score = 38.5 bits (88),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+ Frame = +2
+
+Query  31     NIFHYPLKQLIYLIFYIIFMSFNNLIMKQNFSMNLY  66
+              NIF+ PLKQLIYLI YII+M+FN LI+KQNFSMNLY
+Sbjct  11774  NIFNSPLKQLIYLILYIIYMTFNTLILKQNFSMNLY  11881
+
+
+ Score = 29.3 bits (64),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 13/13 (100%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+ Frame = +2
+
+Query  164    TKICYIKNKNLRT  176
+              TKICYIKNKNLRT
+Sbjct  12173  TKICYIKNKNLRT  12211
+
+
+>NC_045179.1 Bombus terrestris terrestris mitochondrion, complete genome
+Length=17232
+
+ Score = 38.5 bits (88),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+ Frame = +1
+
+Query  31     NIFHYPLKQLIYLIFYIIFMSFNNLIMKQNFSMNLY  66
+              NIF+ PLKQLIYLI YII+M+FN LI+KQNFSMNLY
+Sbjct  11956  NIFNSPLKQLIYLILYIIYMTFNTLILKQNFSMNLY  12063
+
+
+ Score = 29.3 bits (64),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 13/13 (100%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+ Frame = +1
+
+Query  164    TKICYIKNKNLRT  176
+              TKICYIKNKNLRT
+Sbjct  12355  TKICYIKNKNLRT  12393
+
+
+>NC_045283.1 Bombus waltoni mitochondrion, complete genome
+Length=19349
+
+ Score = 31.2 bits (69),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 12/18 (67%), Positives = 16/18 (89%), Gaps = 0/18 (0%)
+ Frame = +1
+
+Query  164    TKICYIKNKNLRTSKWKK  181
+              TK+CY+++K LRT KWKK
+Sbjct  10306  TKMCYLEDKPLRTYKWKK  10359
+
+
+ Score = 30.0 bits (66),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 15/23 (65%), Positives = 17/23 (74%), Gaps = 0/23 (0%)
+ Frame = +1
+
+Query  31    NIFHYPLKQLIYLIFYIIFMSFN  53
+             NI+ YP+KQL YLI YI F S N
+Sbjct  9910  NIYSYPIKQLFYLIMYITFTSMN  9978
+
+
+>NC_039709.1 Apis andreniformis mitochondrial DNA, complete genome
+Length=16694
+
+ Score = 27.7 bits (60),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 16/28 (57%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+ Frame = +3
+
+Query  36     PLKQLIYLIFYIIFMSFNNLIMKQNFSM  63
+              P+  LIYLIFY IFMS +  IM  N S+
+Sbjct  11541  PMLLLIYLIFYSIFMSISLYIMDPNDSL  11624
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.141    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1372804400
+
+
+  Database: Insecta mtDNA
+    Posted date:  Jul 6, 2022  4:04 PM
+  Number of letters in database: 49,353,361
+  Number of sequences in database:  3,130
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
